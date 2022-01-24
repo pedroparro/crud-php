@@ -71,67 +71,67 @@ include("./config.php");
                     <!--embarcador-->
                     <div class="form-edit">
                         <label for="embarcador">Embarcador</label>
-                        <input type="text" value="<?php echo $rows['embarcador'];?>" name="embarcador">
+                        <input type="text" value="<?php echo $rows['embarcador'];?>" name="embarcador" maxlength="50" required>
                     </div>
 
                     <!--transportadora-->
                     <div class="form-edit">
                         <label for="transportadora">Transportadora</label>
-                        <input type="text" value="<?php echo $rows['transportadora']; ?>" name="transportadora">
+                        <input type="text" value="<?php echo $rows['transportadora']; ?>" name="transportadora" maxlength="50" required>
                     </div>
 
                     <!--status-->
                     <div class="form-edit">
                         <label for="status">Status</label>
-                        <input type="text" value="<?php echo $rows['statu']; ?>" name="statu">
+                        <input type="text" value="<?php echo $rows['statu']; ?>" name="statu" maxlength="50" required>
                     </div>
 
                     <!--inconsistencia-->
                     <div class="form-edit">
                         <label for="inconsistencia">Inconsistência</label>
-                        <input type="text" value="<?php echo $rows['inconsistencia']; ?>" name="inconsistencia">
+                        <input type="text" value="<?php echo $rows['inconsistencia']; ?>" name="inconsistencia" maxlength="50" required>
                     </div>
 
                     <!--destinatario_cnpj-->
                     <div class="form-edit">
                         <label for="destinatario_cnpj">Destinatario CNPJ</label>
-                        <input type="text" value="<?php echo $rows['destinatario_cnpj']; ?>" name="destinatario_cnpj">
+                        <input type="text" value="<?php echo $rows['destinatario_cnpj']; ?>" name="destinatario_cnpj" maxlength="50" required>
                     </div>
 
                     <!--destinatario_razao-->
                     <div class="form-edit">
                         <label for="destinatario_razao">Destinatário Razão</label>
-                        <input type="text" value="<?php echo $rows['destinatario_razao']; ?>" name="destinatario_razao">
+                        <input type="text" value="<?php echo $rows['destinatario_razao']; ?>" name="destinatario_razao" maxlength="50" required>
                     </div>
 
                     <!--tipo_destinatario-->
                     <div class="form-edit">
                         <label for="tipo_destinatario">Tipo Destinatário</label>
-                        <input type="text" value="<?php echo $rows['tipo_destinatario']; ?>" name="tipo_destinatario">
+                        <input type="text" value="<?php echo $rows['tipo_destinatario']; ?>" name="tipo_destinatario" maxlength="50" required>
                     </div>
 
                     <!--tipo_operacao-->
                     <div class="form-edit">
                         <label for="tipo_operacao">Tipo Operação</label>
-                        <input type="text" value="<?php echo $rows['tipo_operacao']; ?>" name="tipo_operacao">
+                        <input type="text" value="<?php echo $rows['tipo_operacao']; ?>" name="tipo_operacao" maxlength="50" required>
                     </div>
 
                     <!--data_importacao-->
                     <div class="form-edit">
                         <label for="data_importacao">Data Importacao</label>
-                        <input type="text" value="<?php echo $rows['data_importacao']; ?>" name="data_importacao">
+                        <input type="text" value="<?php echo $rows['data_importacao']; ?>" name="data_importacao" maxlength="50" required>
                     </div>
 
                     <!--data_emissao-->
                     <div class="form-edit">
                         <label for="data_emissao">Data Emissão</label>
-                        <input type="text" value="<?php echo $rows['data_emissao']; ?>" name="data_emissao">
+                        <input type="text" value="<?php echo $rows['data_emissao']; ?>" name="data_emissao" maxlength="50" required>
                     </div>
 
                     <!--numero_nf-->
                     <div class="form-edit">
                         <label for="numero_nf">Número NF</label>
-                        <input type="text" value="<?php echo $rows['numero_nf']; ?>" name="numero_nf">
+                        <input type="text" value="<?php echo $rows['numero_nf']; ?>" name="numero_nf" maxlength="50" required>
                     </div>
                     <!--button-->
                     <button type="submit" name="submit-edit" id="submit-edit">Cadastrar</button>

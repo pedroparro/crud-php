@@ -30,67 +30,67 @@
                     <!--embarcador-->
                     <div class="form">
                         <label for="embarcador">Embarcador</label>
-                        <input type="text" name="embarcador">
+                        <input type="text" name="embarcador" maxlength="50" required>
                     </div>
 
                     <!--transportadora-->
                     <div class="form">
                         <label for="transportadora">Transportadora</label>
-                        <input type="text" name="transportadora">
+                        <input type="text" name="transportadora" maxlength="50">
                     </div>
 
                     <!--status-->
                     <div class="form">
                         <label for="status">Status</label>
-                        <input type="text" name="statu">
+                        <input type="text" name="statu" maxlength="50" required>
                     </div>
 
                     <!--inconsistencia-->
                     <div class="form">
                         <label for="inconsistencia">Inconsistência</label>
-                        <input type="text" name="inconsistencia">
+                        <input type="text" name="inconsistencia" maxlength="50" required>
                     </div>
 
                     <!--destinatario_cnpj-->
                     <div class="form">
                         <label for="destinatario_cnpj">Destinatario CNPJ</label>
-                        <input type="text" name="destinatario_cnpj">
+                        <input type="text" name="destinatario_cnpj" maxlength="50" required>
                     </div>
 
                     <!--destinatario_razao-->
                     <div class="form">
                         <label for="destinatario_razao">Destinatário Razão</label>
-                        <input type="text" name="destinatario_razao">
+                        <input type="text" name="destinatario_razao" maxlength="50" required>
                     </div>
 
                     <!--tipo_destinatario-->
                     <div class="form">
                         <label for="tipo_destinatario">Tipo Destinatário</label>
-                        <input type="text" name="tipo_destinatario">
+                        <input type="text" name="tipo_destinatario" maxlength="50" required>
                     </div>
 
                     <!--tipo_operacao-->
                     <div class="form">
                         <label for="tipo_operacao">Tipo Operação</label>
-                        <input type="text" name="tipo_operacao">
+                        <input type="text" name="tipo_operacao" maxlength="50" required>
                     </div>
 
                     <!--data_importacao-->
                     <div class="form">
                         <label for="data_importacao">Data Importação</label>
-                        <input type="text" name="data_importacao">
+                        <input type="text" name="data_importacao" maxlength="50" required>
                     </div>
 
                     <!--data_emissao-->
                     <div class="form">
                         <label for="data_emissao">Data Emissão</label>
-                        <input type="text" name="data_emissao">
+                        <input type="text" name="data_emissao" maxlength="50" required>
                     </div>
 
                     <!--numero_nf-->
                     <div class="form">
                         <label for="numero_nf">Número NF</label>
-                        <input type="text" name="numero_nf">
+                        <input type="text" name="numero_nf" maxlength="50" required>
                     </div>
                     <!--button-->
                     <button type="submit" name="submit" id="submit">Cadastrar</button>
